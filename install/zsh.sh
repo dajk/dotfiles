@@ -1,0 +1,12 @@
+#!/bin/bash
+
+# install zsh, registers zsh as a default shell
+# brew install zsh
+zsh_path=$(which zsh)
+grep -Fxq "$zsh_path" /etc/shells || sudo bash -c "echo $zsh_path >> /etc/shells"
+# make zsh default shell
+chsh -s "$zsh_path" $USER
+
+# install oh-my-zsh
+sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+
