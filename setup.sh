@@ -9,3 +9,6 @@
 cp dots/.aliases ~/.aliases
 cp dots/.vimrc ~/.vimrc
 cp dots/.zshrc ~/.zshrc
+
+echo "Probably you want to remove this folder now?!"
+
