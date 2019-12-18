@@ -26,6 +26,9 @@ alias diff="diffvim" # diff in vim with colors
 function cl() { cd $1; ls; }
 alias cd="cl" # cd & ls
 
+bindkey "^[^[[C" forward-word
+bindkey "^[^[[D" backward-word
+
 # function up() {
 #   BUFFER="cd .."
 #   zle accept-line
