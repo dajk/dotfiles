@@ -1,0 +1,68 @@
+{
+  "window.zoomLevel": 0,
+  "editor.tabSize": 2,
+  "editor.lineHeight": 24,
+  "editor.fontLigatures": true,
+  "editor.fontSize": 13,
+  "editor.tabCompletion": "on",
+  "editor.rulers": [
+    100
+  ],
+  "editor.wordWrapColumn": 100,
+  "editor.autoIndent": true,
+  "workbench.editor.enablePreview": false,
+  "editor.renderLineHighlight": "all",
+  "eslint.packageManager": "yarn",
+  "eslint.validate": [
+    "javascript"
+  ],
+  "workbench.activityBar.visible": true,
+  "workbench.sideBar.location": "left",
+  "terminal.integrated.shell.osx": "/bin/zsh",
+  "files.insertFinalNewline": true,
+  "files.autoSave": "onFocusChange",
+  "window.restoreFullscreen": true,
+  "markdown.preview.breaks": true,
+  "git.enableSmartCommit": true,
+  "workbench.colorCustomizations": {
+    "activityBarBadge.background": "#3ba352",
+    "list.activeSelectionForeground": "#C6FF00",
+    "list.inactiveSelectionForeground": "#C6FF00",
+    "list.highlightForeground": "#C6FF00",
+    "scrollbarSlider.activeBackground": "#C6FF0050",
+    "editorSuggestWidget.highlightForeground": "#C6FF00",
+    "textLink.foreground": "#C6FF00",
+    "progressBar.background": "#C6FF00",
+    "pickerGroup.foreground": "#C6FF00",
+    "tab.activeBorder": "#C6FF00"
+  },
+  "emmet.triggerExpansionOnTab": true,
+  "workbench.startupEditor": "newUntitledFile",
+  "tslint.rulesDirectory": "./node_modules/codelyzer",
+  "typescript.tsdk": "node_modules/typescript/lib",
+  "html.format.wrapAttributes": "force-aligned",
+  "explorer.confirmDragAndDrop": false,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "explorer.confirmDelete": false,
+  "gitlens.keymap": "alternate",
+  "gitlens.advanced.messages": {
+    "suppressShowKeyBindingsNotice": true
+  },
+  "materialTheme.autoApplyIcons": true,
+  "workbench.iconTheme": "vscode-icons",
+  "vsicons.projectDetection.autoReload": true,
+  "gitlens.views.repositories.files.layout": "tree",
+  "eslint.autoFixOnSave": true,
+  "gitlens.views.compare.files.layout": "tree",
+  "gitlens.views.search.files.layout": "tree",
+  "editor.formatOnPaste": true,
+  "editor.formatOnSave": false,
+  "html.format.endWithNewline": true,
+  "prettier.tslintIntegration": true,
+  "prettier.cssEnable": [
+    "css",
+    "less",
+    "scss"
+  ]
+}
