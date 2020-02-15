@@ -45,6 +45,10 @@ e_header "Setting Oh my zsh"
 (cd oh-my-zsh ; source index.sh)
 e_success "Oh my zsh installed!"
 
+e_header "Setting vim"
+(cd vim ; source index.sh)
+e_success "vim installed!"
+
 e_header "Setting up nodejs"
 nvm  install --lts
 e_success "node setup done!"

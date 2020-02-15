@@ -9,7 +9,6 @@ brew "bash"
 brew "bash-completion"
 brew "coreutils"
 brew "curl"
-brew "ffmpeg"
 brew "jpeg", args: ["universal"]
 brew "mas" # Mac App Store Manager
 brew "nvm" # Node Version Manager
@@ -33,7 +32,7 @@ cask "figma"
 cask "appcleaner"
 cask "caffeine"
 cask "recordit"
-cask "rectangle"
+cask "spectacle"
 mas "The Unarchiver", id: 425424353
 
 # extends quicklook so it supports more formats

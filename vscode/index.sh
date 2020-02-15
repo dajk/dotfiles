@@ -1,4 +1,5 @@
 #!/bin/bash
+
 source ../utils/utils.sh
 
 cp -r ./.vscode ~/.vscode

@@ -1,4 +1,5 @@
 #!/bin/bash
+
 source ../utils/utils.sh
 
 ZSH=~/.oh-my-zsh
@@ -9,6 +10,6 @@ else
   curl -L http://install.ohmyz.sh | sh
 fi
 
-#To install ZSH themes & aliases
+# To install ZSH themes & aliases
 cp ./.aliases ~/.aliases
 cp ./.zshrc ~/.zshrc
