@@ -1,68 +1,55 @@
 {
-  "window.zoomLevel": 0,
-  "editor.tabSize": 2,
-  "editor.lineHeight": 24,
-  "editor.fontLigatures": true,
-  "editor.fontSize": 13,
-  "editor.tabCompletion": "on",
-  "editor.rulers": [
-    100
-  ],
-  "editor.wordWrapColumn": 100,
-  "editor.autoIndent": true,
-  "workbench.editor.enablePreview": false,
-  "editor.renderLineHighlight": "all",
-  "eslint.packageManager": "yarn",
-  "eslint.validate": [
-    "javascript"
-  ],
-  "workbench.activityBar.visible": true,
-  "workbench.sideBar.location": "left",
-  "terminal.integrated.shell.osx": "/bin/zsh",
-  "files.insertFinalNewline": true,
-  "files.autoSave": "onFocusChange",
-  "window.restoreFullscreen": true,
-  "markdown.preview.breaks": true,
-  "git.enableSmartCommit": true,
-  "workbench.colorCustomizations": {
-    "activityBarBadge.background": "#3ba352",
-    "list.activeSelectionForeground": "#C6FF00",
-    "list.inactiveSelectionForeground": "#C6FF00",
-    "list.highlightForeground": "#C6FF00",
-    "scrollbarSlider.activeBackground": "#C6FF0050",
-    "editorSuggestWidget.highlightForeground": "#C6FF00",
-    "textLink.foreground": "#C6FF00",
-    "progressBar.background": "#C6FF00",
-    "pickerGroup.foreground": "#C6FF00",
-    "tab.activeBorder": "#C6FF00"
-  },
-  "emmet.triggerExpansionOnTab": true,
-  "workbench.startupEditor": "newUntitledFile",
-  "tslint.rulesDirectory": "./node_modules/codelyzer",
-  "typescript.tsdk": "node_modules/typescript/lib",
-  "html.format.wrapAttributes": "force-aligned",
-  "explorer.confirmDragAndDrop": false,
-  "javascript.updateImportsOnFileMove.enabled": "always",
+  "window.zoomLevel": -1,
+  "editor.fontSize": 16,
+  "explorer.autoReveal": false,
+  "window.title": "${activeEditorLong}${separator}${rootName}",
   "typescript.updateImportsOnFileMove.enabled": "always",
-  "explorer.confirmDelete": false,
-  "gitlens.keymap": "alternate",
   "gitlens.advanced.messages": {
+    "suppressLineUncommittedWarning": true,
     "suppressShowKeyBindingsNotice": true
   },
-  "materialTheme.autoApplyIcons": true,
-  "workbench.iconTheme": "vscode-icons",
-  "vsicons.projectDetection.autoReload": true,
-  "gitlens.views.repositories.files.layout": "tree",
-  "eslint.autoFixOnSave": true,
-  "gitlens.views.compare.files.layout": "tree",
-  "gitlens.views.search.files.layout": "tree",
-  "editor.formatOnPaste": true,
-  "editor.formatOnSave": false,
-  "html.format.endWithNewline": true,
-  "prettier.tslintIntegration": true,
-  "prettier.cssEnable": [
-    "css",
-    "less",
-    "scss"
-  ]
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.currentLine.enabled": false,
+  "breadcrumbs.enabled": true,
+  "editor.formatOnSave": true,
+  "editor.rulers": [80, 100],
+  "prettier.printWidth": 100,
+  "prettier.trailingComma": "all",
+  "prettier.bracketSpacing": true,
+  "prettier.semi": true,
+  "prettier.tabWidth": 4,
+  "prettier.useTabs": false,
+  "prettier.singleQuote": true,
+  "markdown.preview.fontSize": 16,
+  "terminal.integrated.fontSize": 14,
+  "editor.wordWrapColumn": 100,
+  "typescript.tsserver.log": "verbose",
+  "terminal.integrated.rendererType": "dom",
+  "editor.suggestSelection": "first",
+  "diffEditor.ignoreTrimWhitespace": true,
+  "atlascode.jira.workingSite": {
+    "baseUrlSuffix": "atlassian.net"
+  },
+  "yaml.schemas": {
+    "file:///Users/radovanhajdukovic/.vscode/extensions/atlassian.atlascode-2.4.2/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
+  },
+  "atlascode.jira.workingProject": {
+    "id": "10200",
+    "name": "Dreamlines",
+    "key": "DREAM"
+  },
+  "workbench.colorTheme": "Dracula Soft",
+  "[javascript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "files.autoSave": "off",
+  "[html]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "[typescript]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  }
 }

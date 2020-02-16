@@ -1,0 +1,11 @@
+{
+  "Log in html": {
+    "prefix": "log",
+    "body": [
+      "echo '<pre>' . var_export($1, true) . '</pre>';",
+      "exit();",
+      "$2"
+    ],
+    "description": "Echoing the variable to markup with the <pre> tag and stop the code"
+  }
+}

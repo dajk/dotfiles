@@ -1,0 +1,7 @@
+{
+  "Log in html": {
+    "prefix": "log",
+    "body": ["<pre>{{ dump($1) }}</pre>", "$2"],
+    "description": "Echoing the variable to markup with the <pre> tag and stop the code"
+  }
+}

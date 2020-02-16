@@ -1,0 +1,7 @@
+{
+  "Add shell identifier": {
+    "prefix": "sh",
+    "body": ["#!/bin/bash", "", "$1"],
+    "description": "Add shell identifier"
+  }
+}
