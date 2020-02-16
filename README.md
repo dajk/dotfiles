@@ -28,5 +28,5 @@ then go to your github account settings and add newly generated ssh key.
   - [Node.JS](https://nodejs.org/en/)
   - [VSCode Editor](https://github.com/phoinixi/dotfiles/tree/master/vscode) configuration
   - [Dracula theme](https://draculatheme.com/terminal/)
-  - [rectangle](https://rectangleapp.com) and basic shortcuts
+  - [Spectacle](https://www.spectacleapp.com) and basic shortcuts
   - Dark theme OS X and defaults override
