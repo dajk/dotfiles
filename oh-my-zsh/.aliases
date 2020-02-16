@@ -1,14 +1,40 @@
-# NAVIGATION
-alias ..="cd .."
-alias ~="cd ~"
-alias w="cd ~/workspace"
+# GIT
+alias gs="git status"
+alias gb="git branch"
+alias gl="git pull"
+alias gp="git push"
+alias gf="git fetch"
+alias gmd="git merge origin/develop"
+alias gd="git --no-pager diff"
+alias gg="git log"
+alias glg="git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit"
 
-# TOOLS
-alias finder="open ."
+# NPM
+alias npmw="npm run watch"
+alias npmtw="npm run test:jest -- --watch"
+alias npmtu="npm run test:jest -- -u"
+alias npmls="npm ls -g --depth 0"
 
-# DELETE
-alias rm="=rm -rf"
-alias clean="find . -name '*.DS_Store' -type f -ls -delete"
+# Functions
+mkcd() { mkdir -p "$1" && cd "$1"; } # mkdir & cd
+ft() { grep -rnIi --color $1 $2; } # Find text
+ff() { find . -name "*$1*" -ls; } # Find file
+
+function diffvim() { diff $1 $2 | vim -R - }
+alias diff="diffvim" # diff in vim with colors
+
+function cl() { cd $1; ls; }
+alias cd="cl" # cd & ls
+
+bindkey "^[^[[C" forward-word
+bindkey "^[^[[D" backward-word
+
+# function up() {
+#   BUFFER="cd .."
+#   zle accept-line
+# }
+# zle -N up
+# bindkey "^k" up # cd ..
 
 # IP Address
 alias ip="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
@@ -27,6 +53,3 @@ alias vscode="code"
 
 # Chrome aliases
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
-
-# To update brew, npm, their installed packages
-alias update="brew update; brew upgrade; brew cleanup; npm update npm -g; npm update -g;"
