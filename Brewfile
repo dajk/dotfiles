@@ -42,7 +42,6 @@ cask 'quicklook-csv'
 cask 'quicklook-json'
 cask 'webpquicklook'
 cask 'qlprettypatch'
-cask 'betterzipql'
 
 # Others
 cask "whatsapp"

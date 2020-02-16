@@ -38,31 +38,31 @@ brew bundle
 e_success "brew and cask done!"
 
 e_header "Setting GIT"
-(cd git ; source index.sh)
+(cd git; source index.sh)
 e_success "GIT setup done!"
 
 e_header "Setting Oh my zsh"
-(cd oh-my-zsh ; source index.sh)
+(cd oh-my-zsh; source index.sh)
 e_success "Oh my zsh installed!"
 
 e_header "Setting vim"
-(cd vim ; source index.sh)
+(cd vim; source index.sh)
 e_success "vim installed!"
 
 e_header "Setting up nodejs"
-nvm  install --lts
+nvm install --lts
 e_success "node setup done!"
 
 e_header "Setting up mac os X"
-(cd osx ; source index.sh)
+(cd osx; source index.sh)
 e_success "OSX settings done!"
 
 e_header "Setting VSCODE"
-(cd vscode ; source index.sh)
+(cd vscode; source index.sh)
 e_success "VSCODE setup done!"
 
 e_header "Setting Spectacle"
-(cd spectacle ; source index.sh)
+(cd spectacle; source index.sh)
 e_success "Spectacle setup done!"
 
 # Sotftware update
