@@ -69,6 +69,12 @@ e_success "Spectacle setup done!"
 e_success "Launching software update..."
 softwareupdate -ia
 
+if [ ! $(type yarn) ]; then
+  error "yarn is missing"
+else
+  yarn global add spaceship-prompt
+fi
+
 read -p "Do you want to reboot your mac? [y|N] " -n 1 -r
 echo
 if [[ ! $REPLY =~ ^[Yy]$ ]]
