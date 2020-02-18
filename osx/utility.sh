@@ -154,3 +154,6 @@ defaults write com.apple.commerce AutoUpdate -bool true
 
 # Allow the App Store to reboot machine on macOS updates
 defaults write com.apple.commerce AutoUpdateRestartRequired -bool true
+
+# Enable tap to click on trackpad
+defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
