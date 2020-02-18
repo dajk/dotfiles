@@ -2,13 +2,13 @@
   "entries": {
     "tap": {
       "homebrew/cask": {
-        "revision": "446f6c5090f21d7038b7d3e5871f0e993f2a1e5e"
+        "revision": "2f9d100a2d9468239b9800efc033cab8679e2bad"
       },
       "homebrew/bundle": {
         "revision": "677f39d62a8aefdcbc091f193af1f7ddbee0052d"
       },
       "homebrew/core": {
-        "revision": "256784bb585d446095f6b057e6e26bb27364ab50"
+        "revision": "deec64ff5af5eb9edb2212e9eec3a7d103768619"
       }
     },
     "brew": {
@@ -312,7 +312,7 @@
       "mojave": {
         "HOMEBREW_VERSION": "2.2.5",
         "HOMEBREW_PREFIX": "/usr/local",
-        "Homebrew/homebrew-core": "256784bb585d446095f6b057e6e26bb27364ab50",
+        "Homebrew/homebrew-core": "deec64ff5af5eb9edb2212e9eec3a7d103768619",
         "CLT": "10.3.0.0.1.1562985497",
         "Xcode": "10.2.1",
         "macOS": "10.14.6"

@@ -13,13 +13,13 @@ grep -Fxq "$ZSH_PATH" /etc/shells || sudo bash -c "echo $ZSH_PATH >> /etc/shells
 # if [ $0 -eq "zsh" ]; then
 #   e_note "You are already using $0"
 # else
-chsh -s "$ZSH_PATH" $USER
+# chsh -s "$ZSH_PATH" $USER
 # fi
 
 if [ -d "$ZSH" ]; then
   e_warning "Oh My Zsh is already installed. skipping.."
 else
-  sh -c "$(curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+  curl -L http://install.ohmyz.sh | sh
 fi
 
 # To install ZSH themes & aliases
