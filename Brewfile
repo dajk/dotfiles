@@ -32,6 +32,7 @@ cask "appcleaner"
 cask "caffeine"
 cask "recordit"
 cask "spectacle"
+cask "iterm2"
 
 # extends quicklook so it supports more formats
 cask 'qlcolorcode'
