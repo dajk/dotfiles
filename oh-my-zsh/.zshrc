@@ -2,7 +2,11 @@
 export ZSH="$HOME/.oh-my-zsh"
 
 # install autosuggestions
-git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM:-~/.oh-my-zsh/custom}/plugins/zsh-autosuggestions
+ZSH_CUSTOM_PATH=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}
+
+if [ ! -d ${ZSH_CUSTOM_PATH}/plugins/zsh-autosuggestions ]; then
+  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM_PATH}/plugins/zsh-autosuggestions
+fi
 
 plugins=(
   git
@@ -16,9 +20,11 @@ export PATH="/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin"
 source $ZSH/oh-my-zsh.sh
 
 # dracula theme
-git clone https://github.com/dracula/zsh.git ${ZSH_CUSTOM}/themes/dracula
-ln -s $ZSH_CUSTOM/themes/dracula/dracula.zsh-theme $ZSH/themes/dracula.zsh-theme
-ZSH_THEME="dracula"
+if [ ! -d ${ZSH_CUSTOM}/themes/dracula ]; then
+  git clone https://github.com/dracula/zsh.git ${ZSH_CUSTOM}/themes/dracula
+  ln -s $ZSH_CUSTOM/themes/dracula/dracula.zsh-theme $ZSH/themes/dracula.zsh-theme
+  ZSH_THEME="dracula"
+fi
 
 # Setting zsh aliases
 source $HOME/.aliases
@@ -30,7 +36,7 @@ source $HOME/.aliases
 # NVM
 export NVM_DIR="$HOME/.nvm"
 
-if [ -d "$NVM_DIR" ]; then
+if [ ! -d "$NVM_DIR" ]; then
   mkdir "$NVM_DIR"
 fi
 
@@ -44,10 +50,12 @@ fi
 
 NVM_VERSION=nvm version
 
-if [[ ! $NVM_VERSION =~ ^system$ ]]; then 
-  echo "You have $NVM_VERSION nvm version"
-else
+if [[ $NVM_VERSION =~ system ]]; then
   nvm install --lts
+else
+  echo "Running node $NVM_VERSION"
 fi
 
-nvm use default
+# Set Spaceship ZSH as a prompt
+autoload -U promptinit; promptinit
+prompt spaceship
