@@ -174,3 +174,6 @@ defaults write com.apple.dock largesize -int 70
 
 # Disable force click
 defaults write NSGlobalDomain com.apple.trackpad.forceClick -int 0
+
+# Set tracking speed
+defaults write NSGlobalDomain com.apple.mouse.scale 3
