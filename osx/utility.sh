@@ -157,3 +157,20 @@ defaults write com.apple.commerce AutoUpdateRestartRequired -bool true
 
 # Enable tap to click on trackpad
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
+
+# Show battery percentage
+defaults write com.apple.menuextra.battery ShowPercent -string "yes"
+
+# Key repeat
+defaults write NSGlobalDomain InitialKeyRepeat -int 25
+defaults write NSGlobalDomain KeyRepeat -int 2
+
+# Dock show/hide
+defaults write com.apple.dock autohide -int 1
+
+# Dock magnification
+defaults write com.apple.dock magnification -int 1
+defaults write com.apple.dock largesize -int 70
+
+# Disable force click
+defaults write NSGlobalDomain com.apple.trackpad.forceClick -int 0
