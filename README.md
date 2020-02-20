@@ -2,7 +2,7 @@
 
 ## Getting started (Install in OSX)
 
-##### INSTALL GIT
+- ##### INSTALL GIT
 
 First git installation is needed. Open `terminal` and run following command:
 
