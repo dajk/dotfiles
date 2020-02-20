@@ -53,8 +53,6 @@ vi
 :PlugInstall
 ```
 
-then go to your github account settings and add newly generated ssh key.
-
 ## Features
 
 - [iTerm2](https://iterm2.com/)
