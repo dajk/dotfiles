@@ -33,6 +33,18 @@ ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 pbcopy < ~/.ssh/id_rsa.pub
 ```
 
+- ##### SETUP VIM
+
+To install plugins, reload `.vimrc` and run
+
+```sh
+# run vim
+vi .
+
+# install vim packages
+:PlugInstall
+```
+
 then go to your github account settings and add newly generated ssh key.
 
 ## Features

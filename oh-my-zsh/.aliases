@@ -1,3 +1,6 @@
+# Workspace
+alias ws="cd ~/Workspace"
+
 # GIT
 alias gs="git status"
 alias gb="git branch"

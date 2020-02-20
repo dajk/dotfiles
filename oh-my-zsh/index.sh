@@ -15,6 +15,8 @@ else
   curl -L http://install.ohmyz.sh | sh
 fi
 
+mkdir ~/Workspace
+
 # To install ZSH themes & aliases
 cp ./.aliases ~/.aliases
 cp ./.zshrc ~/.zshrc
