@@ -18,6 +18,14 @@ The next command will do the whole process, download the repo, install it and do
 git clone https://github.com/dajk/dotfiles.git ~/dotfiles && (cd ~/dotfiles && ./install.sh) && rm ~/dotfiles
 ```
 
+- ##### ACTIVATING THEME
+
+1. `iTerm2` > `Preferences` > `Profiles` > `Colors` Tab
+2. Open the `Color Presets...` drop-down in the bottom right corner
+3. Select `Import...` from the list
+4. Select the `Dracula-theme.itermcolors` file
+5. Select the `Dracula-theme` from `Color Presets...`
+
 - ##### RUN DOCKER
 
 ```sh
