@@ -39,7 +39,7 @@ To install plugins, reload `.vimrc` and run
 
 ```sh
 # run vim
-vi .
+vi
 
 # install vim packages
 :PlugInstall
