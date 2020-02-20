@@ -13,6 +13,8 @@ brew "mas" # Mac App Store Manager
 brew "nvm" # Node Version Manager
 brew "tree"
 brew "yarn"
+brew "kubectl"
+brew "minikube"
 
 # Password manager
 cask "keepassx"
@@ -33,18 +35,20 @@ cask "caffeine"
 cask "recordit"
 cask "spectacle"
 cask "iterm2"
+cask "docker"
 
 # extends quicklook so it supports more formats
-cask 'qlcolorcode'
-cask 'qlimagesize'
-cask 'qlmarkdown'
-cask 'qlstephen'
-cask 'quicklook-csv'
-cask 'quicklook-json'
-cask 'webpquicklook'
-cask 'qlprettypatch'
+cask "qlcolorcode"
+cask "qlimagesize"
+cask "qlmarkdown"
+cask "qlstephen"
+cask "quicklook-csv"
+cask "quicklook-json"
+cask "webpquicklook"
+cask "qlprettypatch"
 
 # Others
 cask "whatsapp"
 cask "skype"
 cask "vlc"
+cask "slack"
