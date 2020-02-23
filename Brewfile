@@ -15,6 +15,7 @@ brew "tree"
 brew "yarn"
 brew "kubectl"
 brew "minikube"
+brew "git-lfs"
 
 # Password manager
 cask "keepassx"
