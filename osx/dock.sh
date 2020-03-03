@@ -18,4 +18,11 @@ defaults write com.apple.dock mineffect suck
 # Removes bouncing animation
 defaults write com.apple.dock no-bouncing -bool true
 
+# Dock show / hide
+defaults write com.apple.dock autohide -int 1
+
+# Dock magnification
+defaults write com.apple.dock magnification -int 1
+defaults write com.apple.dock largesize -int 70
+
 killall Dock

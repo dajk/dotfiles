@@ -162,15 +162,12 @@ defaults write com.apple.menuextra.battery ShowPercent -string "yes"
 defaults write NSGlobalDomain InitialKeyRepeat -int 25
 defaults write NSGlobalDomain KeyRepeat -int 2
 
-# Dock show/hide
-defaults write com.apple.dock autohide -int 1
-
-# Dock magnification
-defaults write com.apple.dock magnification -int 1
-defaults write com.apple.dock largesize -int 70
-
 # Disable force click
 defaults write NSGlobalDomain com.apple.trackpad.forceClick -int 0
 
 # Set tracking speed
 defaults write NSGlobalDomain com.apple.mouse.scale 3
+
+# Enable dragging (TODO: needs testing)
+defaults write com.apple.AppleMultitouchTrackpad Dragging -bool true
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Dragging -bool true
