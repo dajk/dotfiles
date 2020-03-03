@@ -37,6 +37,7 @@ cask "recordit"
 cask "spectacle"
 cask "iterm2"
 cask "docker"
+cask "robo-3t"
 
 # extends quicklook so it supports more formats
 cask "qlcolorcode"
