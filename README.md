@@ -23,7 +23,7 @@ git clone https://github.com/dajk/dotfiles.git ~/dotfiles && ~/dotfiles/install.
 1. `iTerm2` > `Preferences` > `Profiles` > `Colors` Tab
 2. Open the `Color Presets...` drop-down in the bottom right corner
 3. Select `Import...` from the list
-4. Select the `Dracula-theme.itermcolors` file
+4. Select the `Dracula-theme.itermcolors` file (since the `install.sh` script is cleaning up the repo at the end, download theme from [here](https://raw.githubusercontent.com/dajk/dotfiles/master/iterm2/Dracula-theme.itermcolors) and select it in this step)
 5. Select the `Dracula-theme` from `Color Presets...`
 
 - ##### RUN DOCKER
