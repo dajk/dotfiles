@@ -15,7 +15,7 @@ It's going to open confirmation popup with question if you want to install git, 
 The next command will do the whole process, download the repo, install it and do the cleanup.
 
 ```sh
-git clone https://github.com/dajk/dotfiles.git ~/dotfiles && (cd ~/dotfiles && ./install.sh) && rm ~/dotfiles
+git clone https://github.com/dajk/dotfiles.git ~/dotfiles && ~/dotfiles/install.sh && rm ~/dotfiles
 ```
 
 - ##### ACTIVATING THEME
