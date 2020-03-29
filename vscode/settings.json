@@ -30,9 +30,6 @@
   "atlascode.jira.workingSite": {
     "baseUrlSuffix": "atlassian.net"
   },
-  "yaml.schemas": {
-    "file:///Users/radovanhajdukovic/.vscode/extensions/atlassian.atlascode-2.4.2/resources/schemas/pipelines-schema.json": "bitbucket-pipelines.yml"
-  },
   "atlascode.jira.workingProject": {
     "id": "10200",
     "name": "Dreamlines",
