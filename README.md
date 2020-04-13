@@ -36,11 +36,15 @@ open /Applications/Docker.app
 
 ```sh
 pg_start
-createdb #
-psql -h localhost # test command
-# psql (9.5.2)
-# Type "help" for help.
-# =# \q
+createdb
+```
+
+```sh
+➜ psql -h localhost
+psql (12.2)
+Type "help" for help.
+
+radovanhajdukovic=# press \q to quit
 ```
 
 Find more [here](https://gist.github.com/ibraheem4/ce5ccd3e4d7a65589ce84f2a3b7c23a3)
