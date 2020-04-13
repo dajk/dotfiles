@@ -32,6 +32,19 @@ git clone https://github.com/dajk/dotfiles.git ~/dotfiles && ~/dotfiles/install.
 open /Applications/Docker.app
 ```
 
+- ##### RUN POSTGRESQL
+
+```sh
+pg_start
+createdb #
+psql -h localhost # test command
+# psql (9.5.2)
+# Type "help" for help.
+# =# \q
+```
+
+Find more [here](https://gist.github.com/ibraheem4/ce5ccd3e4d7a65589ce84f2a3b7c23a3)
+
 - ##### GENERATE SSH
 
 ```sh
@@ -59,6 +72,7 @@ vi
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [Homebrew](http://brew.sh/)
 - [Docker](https://www.docker.com/)
+- [PostgreSQL](https://www.postgresql.org/) following this [configuration](https://gist.github.com/ibraheem4/ce5ccd3e4d7a65589ce84f2a3b7c23a3)
 - [Node.JS](https://nodejs.org/en/) using [nvm](https://github.com/nvm-sh/nvm)
 - [VSCode Editor](https://github.com/dajk/dotfiles/tree/master/vscode) and [configuration](https://github.com/dajk/dotfiles/tree/master/vscode)
 - [Dracula theme](https://draculatheme.com/terminal/)

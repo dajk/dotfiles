@@ -16,6 +16,7 @@ brew "yarn"
 brew "kubectl"
 brew "minikube"
 brew "git-lfs"
+brew "postgresql"
 
 # Password manager
 cask "keepassx"

@@ -59,3 +59,6 @@ fi
 # Set Spaceship ZSH as a prompt
 autoload -U promptinit; promptinit
 prompt spaceship
+
+# Set link to postgresql
+ln -sfv /usr/local/opt/postgresql/*.plist ~/Library/LaunchAgents
