@@ -1,7 +1,7 @@
 {
-  "Red border": {
+  "Debug CSS with border": {
     "prefix": "brred",
     "body": "border: 1px solid ${1:red};",
-    "description": "For CSS debugging"
+    "description": "Border for CSS debugging"
   }
 }
