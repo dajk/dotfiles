@@ -1,29 +1,30 @@
 # Taps
-tap "homebrew/cask"
 tap "homebrew/bundle"
+tap "homebrew/cask"
 tap "homebrew/core"
 
 # Binaries
 brew "awscli"
-brew "bash"
 brew "bash-completion"
+brew "bash"
 brew "coreutils"
 brew "curl"
+brew "deno"
+brew "git-lfs"
+brew "kubectl"
 brew "mas" # Mac App Store Manager
+brew "minikube"
 brew "nvm" # Node Version Manager
+brew "postgresql"
 brew "tree"
 brew "yarn"
-brew "kubectl"
-brew "minikube"
-brew "git-lfs"
-brew "postgresql"
 
 # Password manager
 cask "keepassx"
 
 # Browsers
-cask "google-chrome"
 cask "firefox"
+cask "google-chrome"
 
 # Editor
 cask "visual-studio-code"
@@ -34,24 +35,24 @@ cask "figma"
 # Utilities
 cask "appcleaner"
 cask "caffeine"
-cask "recordit"
-cask "spectacle"
-cask "iterm2"
 cask "docker"
+cask "iterm2"
+cask "recordit"
 cask "robo-3t"
+cask "spectacle"
 
 # extends quicklook so it supports more formats
 cask "qlcolorcode"
 cask "qlimagesize"
 cask "qlmarkdown"
+cask "qlprettypatch"
 cask "qlstephen"
 cask "quicklook-csv"
 cask "quicklook-json"
 cask "webpquicklook"
-cask "qlprettypatch"
 
 # Others
-cask "whatsapp"
 cask "skype"
-cask "vlc"
 cask "slack"
+cask "vlc"
+cask "whatsapp"
