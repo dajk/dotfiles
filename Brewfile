@@ -10,6 +10,7 @@ brew "bash"
 brew "coreutils"
 brew "curl"
 brew "deno"
+brew "golang"
 brew "git-lfs"
 brew "kubectl"
 brew "mas" # Mac App Store Manager
