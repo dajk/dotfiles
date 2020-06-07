@@ -2,6 +2,7 @@
   "window.zoomLevel": -1,
   "editor.fontSize": 16,
   "explorer.autoReveal": false,
+  "files.autoSave": "off",
   "window.title": "${activeEditorLong}${separator}${rootName}",
   "typescript.updateImportsOnFileMove.enabled": "always",
   "gitlens.advanced.messages": {
@@ -12,12 +13,12 @@
   "gitlens.currentLine.enabled": false,
   "breadcrumbs.enabled": true,
   "editor.formatOnSave": true,
-  "editor.rulers": [80, 100],
+  "editor.rulers": [100],
   "prettier.printWidth": 100,
-  "prettier.trailingComma": "all",
+  "prettier.trailingComma": "es5",
   "prettier.bracketSpacing": true,
-  "prettier.semi": true,
-  "prettier.tabWidth": 4,
+  "prettier.semi": false,
+  "prettier.tabWidth": 2,
   "prettier.useTabs": false,
   "prettier.singleQuote": true,
   "markdown.preview.fontSize": 16,
@@ -27,14 +28,6 @@
   "terminal.integrated.rendererType": "dom",
   "editor.suggestSelection": "first",
   "diffEditor.ignoreTrimWhitespace": true,
-  "atlascode.jira.workingSite": {
-    "baseUrlSuffix": "atlassian.net"
-  },
-  "atlascode.jira.workingProject": {
-    "id": "10200",
-    "name": "Dreamlines",
-    "key": "DREAM"
-  },
   "workbench.colorTheme": "Dracula Soft",
   "[javascript]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
@@ -42,7 +35,6 @@
   "[json]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },
-  "files.autoSave": "off",
   "[html]": {
     "editor.defaultFormatter": "esbenp.prettier-vscode"
   },

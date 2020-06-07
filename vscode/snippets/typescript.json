@@ -9,29 +9,14 @@
     "body": "console.log('----------> ${1:here} <----------')$2",
     "description": "Log here"
   },
-  "Console log debug checker with vars": {
+  "Console log debug checker with variable": {
     "prefix": "cld",
     "body": "console.log(`----------> ${${1}} <----------`);",
     "description": "Log here"
-  },
-  "Debugger with disable linter": {
-    "prefix": "debugger",
-    "body": "debugger; // tslint:disable-line",
-    "description": "It's adding browser debugger with allowing it against tslint"
   },
   "Prettier ignore": {
     "prefix": "prettier:ignore",
     "body": "// prettier-ignore",
     "description": "It's ignoring prettier auto fomatting"
-  },
-  "Typescript ignore": {
-    "prefix": "tslint:disable",
-    "body": "// tslint:disable",
-    "description": "It's disabling tslint for the rest of the file"
-  },
-  "Typescript ignore next line": {
-    "prefix": "tslint:disable-next-line",
-    "body": "// tslint:disable-next-line",
-    "description": "It's disabling tslint for the rest of the file"
   }
 }

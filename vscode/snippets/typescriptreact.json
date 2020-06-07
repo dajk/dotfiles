@@ -14,28 +14,9 @@
     "body": "console.log(`----------> ${${1}} <----------`);",
     "description": "Log here"
   },
-  "Emotion @jsx pragma": {
-    "prefix": "@jsx",
-    "body": [
-      "/** @jsx jsx */",
-      "export const jsxBabelFix = jsx;",
-      "import { jsx } from '@emotion/core';"
-    ],
-    "description": "Allow jsx pragma inside typescript files"
-  },
   "Prettier ignore": {
     "prefix": "prettier:ignore",
     "body": "// prettier-ignore",
     "description": "It's ignoring prettier auto fomatting"
-  },
-  "Typescript ignore": {
-    "prefix": "tslint:disable",
-    "body": "// tslint:disable",
-    "description": "It's disabling tslint for the rest of the file"
-  },
-  "Typescript ignore next line": {
-    "prefix": "tslint:disable-next-line",
-    "body": "// tslint:disable-next-line",
-    "description": "It's disabling tslint for the rest of the file"
   }
 }
