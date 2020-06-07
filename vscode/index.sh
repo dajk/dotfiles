@@ -16,7 +16,7 @@ code --install-extension msjsdiag.debugger-for-chrome
 code --install-extension ms-azuretools.vscode-docker
 code --install-extension dbaeumer.vscode-eslint
 code --install-extension eamodio.gitlens
-code --install-extension kumar-harsh.graphql-for-vscode
+code --install-extension prisma.vscode-graphql
 code --install-extension techer.open-in-browser
 code --install-extension esbenp.prettier-vscode
 code --install-extension humao.rest-client
@@ -25,5 +25,7 @@ code --install-extension cssho.vscode-svgviewer
 code --install-extension jpoissonnier.vscode-styled-components
 code --install-extension redhat.vscode-yaml
 code --install-extension eg2.vscode-npm-script
+code --install-extension denoland.vscode-deno
+code --install-extension ms-vscode.go
 
 e_success "Extensions for VSC have been installed. Please restart your VSC."
