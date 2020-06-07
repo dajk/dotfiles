@@ -79,6 +79,7 @@ vi
 - [PostgreSQL](https://www.postgresql.org/) following this [configuration](https://gist.github.com/ibraheem4/ce5ccd3e4d7a65589ce84f2a3b7c23a3)
 - [Node.JS](https://nodejs.org/en/) using [nvm](https://github.com/nvm-sh/nvm)
 - [Deno](https://deno.land/)
+- [Golang](https://golang.org/)
 - [VSCode Editor](https://github.com/dajk/dotfiles/tree/master/vscode) and [configuration](https://github.com/dajk/dotfiles/tree/master/vscode)
 - [Dracula theme](https://draculatheme.com/terminal/)
 - [Spectacle](https://www.spectacleapp.com) and basic shortcuts
