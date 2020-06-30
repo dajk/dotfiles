@@ -1,0 +1,32 @@
+{
+  "Print to console": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "clg",
+    "body": ["console.log(`$1`);", "$2"],
+    "description": "Log output to console"
+  },
+  "Print error to console": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "err",
+    "body": ["console.error(`$1`);", "$2"],
+    "description": "Error output to console"
+  },
+  "Print warning to console": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "warn",
+    "body": ["console.warn(`$1`);", "$2"],
+    "description": "Warn output to console"
+  },
+  "Console log debug checker": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "clh",
+    "body": "console.log(`----------> ${1:here} <----------`)$2",
+    "description": "Log here"
+  },
+  "Console log debug checker with variable": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "cld",
+    "body": "console.log(`----------> ${${1}} <----------`);",
+    "description": "Log here"
+  }
+}
