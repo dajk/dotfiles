@@ -1,6 +1,7 @@
 {
   "Debug CSS with border": {
-    "prefix": "brred",
+    "scope": "css,scss",
+    "prefix": "br1",
     "body": "border: 1px solid ${1:red};",
     "description": "Border for CSS debugging"
   }

@@ -12,7 +12,7 @@ sudo systemsetup -setcomputersleep Off > /dev/null
 defaults write NSGlobalDomain NSAutomaticSpellingCorrectionEnabled -bool false
 
 # Set the timezone; see `sudo systemsetup -listtimezones` for other values
-sudo systemsetup -settimezone "Europe/Rome" > /dev/null
+sudo systemsetup -settimezone "Europe/Berlin" > /dev/null
 
 # Enable HiDPI display modes (requires restart)
 sudo defaults write /Library/Preferences/com.apple.windowserver DisplayResolutionEnabled -bool true
@@ -33,7 +33,7 @@ defaults write NSGlobalDomain NSWindowResizeTime -float 0.001
 defaults write com.apple.screencapture location -string "$HOME/Desktop"
 
 # Save screenshots in PNG format (other options: BMP, GIF, JPG, PDF, TIFF)
-defaults write com.apple.screencapture type -string "png"
+defaults write com.apple.screencapture type -string "jpg"
 
 # Chime When Charging
 defaults write com.apple.PowerChime ChimeOnAllHardware -bool true && \
@@ -69,9 +69,6 @@ defaults write NSGlobalDomain AppleFontSmoothing -int 1
 
 # Finder: allow quitting via ⌘ + Q; doing so will also hide desktop icons
 defaults write com.apple.finder QuitMenuItem -bool true
-
-# Finder: disable window animations and Get Info animations
-defaults write com.apple.finder DisableAllAnimations -bool true
 
 # Set HOME as the default location for new Finder windows
 defaults write com.apple.finder NewWindowTargetPath -string "file://${HOME}/"
@@ -152,7 +149,7 @@ defaults write com.apple.commerce AutoUpdate -bool true
 # Allow the App Store to reboot machine on macOS updates
 defaults write com.apple.commerce AutoUpdateRestartRequired -bool true
 
-# Enable tap to click on trackpad
+# Enable tap to click on trackpad (TODO: sets but requires a manual check)
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 # Show battery percentage
@@ -166,8 +163,8 @@ defaults write NSGlobalDomain KeyRepeat -int 2
 defaults write NSGlobalDomain com.apple.trackpad.forceClick -int 0
 
 # Set tracking speed
-defaults write NSGlobalDomain com.apple.mouse.scale 3
+defaults write NSGlobalDomain com.apple.mouse.scale 5
 
 # Enable dragging (TODO: needs testing)
-defaults write com.apple.AppleMultitouchTrackpad Dragging -bool true
-defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Dragging -bool true
+defaults write com.apple.AppleMultitouchTrackpad Dragging -int 1
+defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Dragging -int 1

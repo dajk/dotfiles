@@ -29,7 +29,7 @@ mas signin --dialog $APPLEID
 mas upgrade
 e_success "apple store apps upgrade done!"
 
-e_header "Next time you are asked for you password, enter you system passowrd"
+e_header "Next time you are asked for you password, enter you system password"
 
 # run Brewfile
 e_header "Run Brewfile!"
@@ -37,9 +37,9 @@ brew tap Homebrew/bundle
 brew bundle
 e_success "brew and cask done!"
 
-e_header "Setting GIT"
+e_header "Setting git"
 (cd git; source index.sh)
-e_success "GIT setup done!"
+e_success "git setup done!"
 
 e_header "Setting Oh my zsh"
 (cd oh-my-zsh; source index.sh)
@@ -51,17 +51,17 @@ e_success "vim installed!"
 
 e_header "Setting up nodejs"
 nvm install --lts
-e_success "node setup done!"
+e_success "nodejs setup done!"
 
-e_header "Setting up mac os X"
+e_header "Setting up MacOSX"
 (cd osx; source index.sh)
-e_success "OSX settings done!"
+e_success "MacOSX setup done!"
 
-e_header "Setting VSCODE"
+e_header "Setting vscode"
 (cd vscode; source index.sh)
-e_success "VSCODE setup done!"
+e_success "vscode setup done!"
 
-e_header "Setting Spectacle"
+e_header "Setting spectacle"
 (cd spectacle; source index.sh)
 e_success "Spectacle setup done!"
 
@@ -69,11 +69,7 @@ e_success "Spectacle setup done!"
 e_success "Launching software update..."
 softwareupdate -ia
 
-if [ ! $(type yarn) ]; then
-  error "yarn is missing"
-else
-  yarn global add spaceship-prompt
-fi
+npm i -g spaceship-prompt
 
 read -p "Do you want to reboot your mac? [y|N] " -n 1 -r
 echo

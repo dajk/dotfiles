@@ -19,9 +19,7 @@ brew "nvm" # Node Version Manager
 brew "postgresql"
 brew "tree"
 brew "yarn"
-
-# Password manager
-cask "keepassx"
+brew "bat"
 
 # Browsers
 cask "firefox"
@@ -38,22 +36,19 @@ cask "appcleaner"
 cask "caffeine"
 cask "docker"
 cask "iterm2"
-cask "recordit"
-cask "robo-3t"
+# cask "recordit"
+# cask "robo-3t"
 cask "spectacle"
 
-# extends quicklook so it supports more formats
-cask "qlcolorcode"
+# Quicklook extensions (MacOS preview)
 cask "qlimagesize"
 cask "qlmarkdown"
 cask "qlprettypatch"
-cask "qlstephen"
 cask "quicklook-csv"
 cask "quicklook-json"
 cask "webpquicklook"
 
-# Others
-cask "skype"
+# Communication
 cask "slack"
-cask "vlc"
 cask "whatsapp"
+cask "zoomus"

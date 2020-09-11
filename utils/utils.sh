@@ -12,7 +12,7 @@ green=$(tput setaf 76)
 tan=$(tput setaf 3)
 blue=$(tput setaf 38)
 
-#To check input is empty or not
+# To check input is empty or not
 is_empty() {
   if [ $# -eq  0 ]; then
     return 1
@@ -20,7 +20,7 @@ is_empty() {
   return 0
 }
 
-#To check programs exit or not
+# To check programs exit or not
 is_exists() {
   if [ $(type -P $1) ]; then
     return 1
@@ -28,7 +28,7 @@ is_exists() {
   return 0
 }
 
-#To check file exits or not
+# To check file exits or not
 is_file_exists() {
   if [ -f "$file" ]; then
 	  return 1
@@ -36,7 +36,7 @@ is_file_exists() {
 	return 0
 }
 
-#Custom echo functions
+# Custom echo functions
 e_ask() {
   printf "\n${bold}$@${reset}"
 }
@@ -75,9 +75,4 @@ bold() {
 
 e_note() {
   printf "\n${underline}${bold}${blue}Note:${reset} ${blue}%s${reset}\n" "$@"
-}
-
-# Create a new directory and enter it
-function mkd() {
-	mkdir -p "$@" && cd "$_";
 }
