@@ -48,7 +48,7 @@ else
   [ -s "/usr/local/opt/nvm/etc/bash_completion.d/nvm" ] && . "/usr/local/opt/nvm/etc/bash_completion.d/nvm"  # This loads nvm bash_completion
 fi
 
-NVM_VERSION=nvm version
+NVM_VERSION=$(nvm version)
 
 if [[ $NVM_VERSION =~ system ]]; then
   nvm install --lts
