@@ -21,18 +21,20 @@ git clone https://github.com/dajk/dotfiles.git ~/dotfiles && cd ~/dotfiles && ./
 rm -rf ~/dotfiles
 ```
 
-- ##### ACTIVATING THEME
+- ##### ACTIVATING THEME AND OTHER iTerm2 SETUP
 
 1. `iTerm2` > `Preferences` > `Profiles` > `Colors` Tab
 2. Open the `Color Presets...` drop-down in the bottom right corner
 3. Select `Import...` from the list
 4. Select the `Dracula-theme.itermcolors` file (browse from `/User/{YOUR_USER}/dotfiles/iterm2/Dracula-theme.itermcolors` or download theme from [here](https://raw.githubusercontent.com/dajk/dotfiles/master/iterm2/Dracula-theme.itermcolors) and select it in this step)
 5. Select the `Dracula-theme` from `Color Presets...`
+6. Go to the `Text` section and increase font size to `14`
+7. Go to `Window` section and set columns to `120`
 
 - ##### SETUP GESTURES
 
-1. Open sportlight search (⌘ + space)
-2. Search for `Trackpad` and open
+1. Open spotlight search (⌘ + space)
+2. Type `Trackpad` and open
 3. Enable `Secondary click` & `Tap to click` options (if it's enabled already, disabled/enable again)
 4. Go to `Accesibility > Pointer Control > Trackpad Options`
 5. `Enable dragging` (`without drag lock`) and click `OK`
@@ -46,19 +48,17 @@ open /Applications/Docker.app
 - ##### RUN POSTGRESQL
 
 ```sh
-pg_start
-createdb
+brew service start postgresql
+psql postgres
 ```
 
 ```sh
-➜ psql -h localhost
-psql (12.2)
+➜ psql postgres
+psql (12.4)
 Type "help" for help.
 
-radovanhajdukovic=# press \q to quit
+postgres=# press \q to quit
 ```
-
-Find more [here](https://gist.github.com/ibraheem4/ce5ccd3e4d7a65589ce84f2a3b7c23a3)
 
 - ##### GENERATE SSH
 

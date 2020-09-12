@@ -2,5 +2,9 @@
 
 source ../utils/utils.sh
 
-cp ./Shortcuts.json  ~/Library/Application\ Support/Spectacle/
+SPECTACLE_PATH=~/Library/Application\ Support
+
+mkdir "$SPECTACLE_PATH"/Spectacle
+cp ./Shortcuts.json "$SPECTACLE_PATH"/Spectacle/
+
 e_success "Spectacle settings copied"

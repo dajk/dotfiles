@@ -15,7 +15,7 @@ e_success "Homebrew ready!"
 # checks if apple ID was used as argument, if not ask for it
 if [ $# -eq 0 ]
   then
-    e_ask "Enter your  ID:"
+    e_ask "Enter your  ID: "
     read APPLEID
 else
     APPLEID=$1
