@@ -15,7 +15,10 @@ It's going to open confirmation popup with question if you want to install git, 
 The next command will do the whole process, download the repo, install it and do the cleanup.
 
 ```sh
-git clone https://github.com/dajk/dotfiles.git ~/dotfiles && ~/dotfiles/install.sh
+git clone https://github.com/dajk/dotfiles.git ~/dotfiles && cd ~/dotfiles && ./install.sh
+
+# To cleanup afterwards run
+rm -rf ~/dotfiles
 ```
 
 - ##### ACTIVATING THEME
@@ -26,13 +29,13 @@ git clone https://github.com/dajk/dotfiles.git ~/dotfiles && ~/dotfiles/install.
 4. Select the `Dracula-theme.itermcolors` file (browse from `/User/{YOUR_USER}/dotfiles/iterm2/Dracula-theme.itermcolors` or download theme from [here](https://raw.githubusercontent.com/dajk/dotfiles/master/iterm2/Dracula-theme.itermcolors) and select it in this step)
 5. Select the `Dracula-theme` from `Color Presets...`
 
-- ##### Setup Mac env
+- ##### SETUP GESTURES
 
-1. Open sportlight search
-2. Search for trackpad
-3. Disable/enable Secondary click & Tap to click options
-4. Go to accesibility > pointer control > trackpad options
-5. Enable dragging (without drag lock)
+1. Open sportlight search (⌘ + space)
+2. Search for `Trackpad` and open
+3. Enable `Secondary click` & `Tap to click` options (if it's enabled already, disabled/enable again)
+4. Go to `Accesibility > Pointer Control > Trackpad Options`
+5. `Enable dragging` (`without drag lock`) and click `OK`
 
 - ##### RUN DOCKER
 
