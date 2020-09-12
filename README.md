@@ -15,7 +15,7 @@ It's going to open confirmation popup with question if you want to install git, 
 The next command will do the whole process, download the repo, install it and do the cleanup.
 
 ```sh
-git clone https://github.com/dajk/dotfiles.git ~/dotfiles && ~/dotfiles/install.sh && rm ~/dotfiles
+git clone https://github.com/dajk/dotfiles.git ~/dotfiles && ~/dotfiles/install.sh
 ```
 
 - ##### ACTIVATING THEME
@@ -23,8 +23,16 @@ git clone https://github.com/dajk/dotfiles.git ~/dotfiles && ~/dotfiles/install.
 1. `iTerm2` > `Preferences` > `Profiles` > `Colors` Tab
 2. Open the `Color Presets...` drop-down in the bottom right corner
 3. Select `Import...` from the list
-4. Select the `Dracula-theme.itermcolors` file (since the `install.sh` script is cleaning up the repo at the end, download theme from [here](https://raw.githubusercontent.com/dajk/dotfiles/master/iterm2/Dracula-theme.itermcolors) and select it in this step)
+4. Select the `Dracula-theme.itermcolors` file (browse from `/User/{YOUR_USER}/dotfiles/iterm2/Dracula-theme.itermcolors` or download theme from [here](https://raw.githubusercontent.com/dajk/dotfiles/master/iterm2/Dracula-theme.itermcolors) and select it in this step)
 5. Select the `Dracula-theme` from `Color Presets...`
+
+- ##### Setup Mac env
+
+1. Open sportlight search
+2. Search for trackpad
+3. Disable/enable Secondary click & Tap to click options
+4. Go to accesibility > pointer control > trackpad options
+5. Enable dragging (without drag lock)
 
 - ##### RUN DOCKER
 
@@ -60,7 +68,7 @@ pbcopy < ~/.ssh/id_rsa.pub
 
 - ##### SETUP VIM
 
-To install plugins, reload `.vimrc` and run
+To install plugins run
 
 ```sh
 # run vim
