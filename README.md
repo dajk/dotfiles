@@ -29,7 +29,6 @@ rm -rf ~/dotfiles
 4. Select the `Dracula-theme.itermcolors` file (browse from `/User/{YOUR_USER}/dotfiles/iterm2/Dracula-theme.itermcolors` or download theme from [here](https://raw.githubusercontent.com/dajk/dotfiles/master/iterm2/Dracula-theme.itermcolors) and select it in this step)
 5. Select the `Dracula-theme` from `Color Presets...`
 6. Go to the `Text` section and increase font size to `14`
-7. Go to `Window` section and set columns to `120`
 
 - ##### SETUP GESTURES
 
