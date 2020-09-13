@@ -13,12 +13,10 @@ cp ./keybindings.json  "$VSCODE_USER_PATH"
 cp -r ./snippets  "$VSCODE_USER_PATH"
 e_success "VSCODE settings copied"
 
-read -p "Do you want to install recommended vscode extensions? [y|N] " -n 1 -r
+read -p "Do you want to install recommended vscode extensions? [Y|n] " -n 1 -r
 echo
-if [[ ! $REPLY =~ ^[Yy]$ ]]
+if [[ ! $REPLY =~ ^[Nn]$ ]]
 then
-  exit 1
-else
   e_header "Installing vscode extensions, please wait..."
 
   code --install-extension dracula-theme.theme-dracula
@@ -40,4 +38,7 @@ else
   code --install-extension ms-vscode.go
 
   e_success "Extensions for vscode have been installed."
+else
+  e_warning "Skip vscode extension installation..."
+  exit 1
 fi

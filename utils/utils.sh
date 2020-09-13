@@ -12,31 +12,7 @@ green=$(tput setaf 76)
 tan=$(tput setaf 3)
 blue=$(tput setaf 38)
 
-# To check input is empty or not
-is_empty() {
-  if [ $# -eq  0 ]; then
-    return 1
-  fi
-  return 0
-}
-
-# To check programs exit or not
-is_exists() {
-  if [ $(type -P $1) ]; then
-    return 1
-  fi
-  return 0
-}
-
-# To check file exits or not
-is_file_exists() {
-  if [ -f "$file" ]; then
-	  return 1
-  fi
-	return 0
-}
-
-# Custom echo functions
+# Custom functions
 e_ask() {
   printf "\n${bold}$@${reset}"
 }
@@ -57,7 +33,7 @@ e_success() {
   printf "\n${green}✔ %s${reset}\n" "$@"
 }
 
-error() {
+e_error() {
   printf "\n${red}✖ %s${reset}\n" "$@"
 }
 
@@ -65,11 +41,11 @@ e_warning() {
   printf "\n${tan}ᐅ %s${reset}\n" "$@"
 }
 
-underline() {
+e_underline() {
   printf "\n${underline}${bold}%s${reset}\n" "$@"
 }
 
-bold() {
+e_bold() {
   printf "\n${bold}%s${reset}\n" "$@"
 }
 
