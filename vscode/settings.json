@@ -22,6 +22,7 @@
   "prettier.useTabs": false,
   "prettier.singleQuote": true,
   "markdown.preview.fontSize": 16,
+  "terminal.integrated.fontFamily": "Fira Code",
   "terminal.integrated.fontSize": 14,
   "editor.wordWrapColumn": 100,
   "typescript.tsserver.log": "verbose",

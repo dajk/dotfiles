@@ -2,6 +2,7 @@
 tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
+tap "homebrew/cask-fonts"
 
 # Binaries
 brew "awscli"
@@ -39,6 +40,7 @@ cask "iterm2"
 # cask "recordit"
 # cask "robo-3t"
 cask "spectacle"
+cask "font-fira-code"
 
 # Quicklook extensions (MacOS preview)
 cask "qlimagesize"
