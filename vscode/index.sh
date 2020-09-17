@@ -36,6 +36,7 @@ then
   code --install-extension eg2.vscode-npm-script
   code --install-extension denoland.vscode-deno
   code --install-extension ms-vscode.go
+  code --install-extension bradlc.vscode-tailwindcss
 
   e_success "Extensions for vscode have been installed."
 else
