@@ -1,31 +1,37 @@
 {
   "Print to console": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
-    "prefix": "clg",
-    "body": ["console.log(`$1`);", "$2"],
+    "prefix": "cl",
+    "body": ["console.log($1);", "$2"],
     "description": "Log output to console"
   },
   "Print error to console": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
-    "prefix": "err",
-    "body": ["console.error(`$1`);", "$2"],
+    "prefix": "cl:error",
+    "body": ["console.error($1);", "$2"],
     "description": "Error output to console"
   },
   "Print warning to console": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
-    "prefix": "warn",
-    "body": ["console.warn(`$1`);", "$2"],
+    "prefix": "cl:warn",
+    "body": ["console.warn($1);", "$2"],
     "description": "Warn output to console"
+  },
+  "Print time to console": {
+    "scope": "javascript,javascriptreact,typescript,typescriptreact",
+    "prefix": "cl:time",
+    "body": ["console.time($1);\nconsole.timeEnd($1);$2"],
+    "description": "Time output to console"
   },
   "Console log debug checker": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
-    "prefix": "clh",
+    "prefix": "cl:here",
     "body": "console.log(`----------> ${1:here} <----------`)$2",
     "description": "Log here"
   },
   "Console log debug checker with variable": {
     "scope": "javascript,javascriptreact,typescript,typescriptreact",
-    "prefix": "cld",
+    "prefix": "cl:here:var",
     "body": "console.log(`----------> ${${1}} <----------`);",
     "description": "Log here"
   }
