@@ -7,5 +7,36 @@
   {
     "key": "cmd+n",
     "command": "explorer.newFile"
+  },
+  {
+    "key": "ctrl+]",
+    "command": "spaceBlockJumper.moveDown"
+  },
+  {
+    "key": "ctrl+[",
+    "command": "spaceBlockJumper.moveUp"
+  },
+  {
+    "key": "ctrl+shift+]",
+    "command": "spaceBlockJumper.selectDown"
+  },
+  {
+    "key": "ctrl+shift+[",
+    "command": "spaceBlockJumper.selectUp"
+  },
+  {
+    "key": "alt+space",
+    "command": "editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+space",
+    "command": "-editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "alt+escape",
+    "command": "-editor.action.triggerSuggest",
+    "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
   }
 ]

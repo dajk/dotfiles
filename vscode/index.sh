@@ -37,6 +37,7 @@ then
   code --install-extension denoland.vscode-deno
   code --install-extension ms-vscode.go
   code --install-extension bradlc.vscode-tailwindcss
+  code --install-extension jmfirth.vsc-space-block-jumper
 
   e_success "Extensions for vscode have been installed."
 else
