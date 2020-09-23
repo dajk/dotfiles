@@ -93,4 +93,8 @@ vi
 - [VSCode Editor](https://github.com/dajk/dotfiles/tree/master/vscode) and [configuration](https://github.com/dajk/dotfiles/tree/master/vscode)
 - [Dracula theme](https://draculatheme.com/terminal/)
 - [Spectacle](https://www.spectacleapp.com) and basic shortcuts
+- [AppCleaner](https://freemacsoft.net/appcleaner/)
+- [ResponsivelyApp](https://responsively.app/)
+- [Slack](https://slack.com/intl/en-de/)
+- [WhatsApp](https://web.whatsapp.com/)
 - Dark theme OS X and defaults override

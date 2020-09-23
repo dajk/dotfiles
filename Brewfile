@@ -41,6 +41,7 @@ cask "iterm2"
 # cask "robo-3t"
 cask "spectacle"
 cask "font-fira-code"
+cask "responsively"
 
 # Quicklook extensions (MacOS preview)
 cask "qlimagesize"
