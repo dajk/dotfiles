@@ -153,7 +153,7 @@ defaults write com.apple.commerce AutoUpdateRestartRequired -bool true
 defaults write NSGlobalDomain com.apple.mouse.tapBehavior -int 1
 
 # Show battery percentage
-defaults write com.apple.menuextra.battery ShowPercent -string "yes"
+defaults write com.apple.menuextra.battery ShowPercent -string YES; killall SystemUIServer
 
 # Key repeat
 defaults write NSGlobalDomain InitialKeyRepeat -int 25
