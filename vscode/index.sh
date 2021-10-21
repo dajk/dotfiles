@@ -38,6 +38,7 @@ then
   code --install-extension ms-vscode.go
   code --install-extension bradlc.vscode-tailwindcss
   code --install-extension jmfirth.vsc-space-block-jumper
+  code --install-extension golang.go
 
   e_success "Extensions for vscode have been installed."
 else
