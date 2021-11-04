@@ -22,6 +22,7 @@ brew "tree"
 brew "yarn"
 brew "bat"
 brew "planetscale/tap/pscale"
+brew "mysql-client"
 
 # Browsers
 cask "firefox"
