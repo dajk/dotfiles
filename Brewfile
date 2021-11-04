@@ -21,6 +21,7 @@ brew "postgresql"
 brew "tree"
 brew "yarn"
 brew "bat"
+brew "planetscale/tap/pscale"
 
 # Browsers
 cask "firefox"
