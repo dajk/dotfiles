@@ -83,6 +83,7 @@ vi
 ## Features
 
 - [iTerm2](https://iterm2.com/)
+- [Warp](https://www.warp.dev/)
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [Homebrew](http://brew.sh/)
 - [Docker](https://www.docker.com/)
