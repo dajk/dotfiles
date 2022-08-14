@@ -26,3 +26,4 @@ defaults write com.apple.dock magnification -int 1
 defaults write com.apple.dock largesize -int 70
 
 killall Dock
+

@@ -168,3 +168,4 @@ defaults write NSGlobalDomain com.apple.mouse.scale 5
 # Enable dragging (TODO: needs testing)
 defaults write com.apple.AppleMultitouchTrackpad Dragging -int 1
 defaults write com.apple.driver.AppleBluetoothMultitouch.trackpad Dragging -int 1
+

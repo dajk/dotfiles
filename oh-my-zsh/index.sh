@@ -18,3 +18,4 @@ fi
 # To install ZSH themes & aliases
 cp ./.aliases ~/.aliases
 cp ./.zshrc ~/.zshrc
+
