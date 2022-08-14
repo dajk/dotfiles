@@ -12,7 +12,7 @@ plugins=(
   git
   zsh-autosuggestions
   npm
-  osx
+  macos
 )
 
 # User configuration
@@ -26,6 +26,9 @@ if [ ! -d ${ZSH_CUSTOM}/themes/dracula ]; then
   ZSH_THEME="dracula"
 fi
 
+# Set Homebrew PATH
+source $HOME/.zprofile
+
 # Setting zsh aliases
 source $HOME/.aliases
 
@@ -35,10 +38,10 @@ source $HOME/.aliases
 
 # NVM
 export NVM_DIR="$HOME/.nvm"
-
 if [ ! -d "$NVM_DIR" ]; then
   mkdir "$NVM_DIR"
 fi
+source $(brew --prefix nvm)/nvm.sh
 
 if [ -f "$NVM_DIR/nvm.sh" ]; then
   [ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"
@@ -59,3 +62,4 @@ fi
 # Set Spaceship ZSH as a prompt
 autoload -U promptinit; promptinit
 prompt spaceship
+

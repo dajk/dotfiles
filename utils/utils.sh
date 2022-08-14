@@ -52,3 +52,4 @@ e_bold() {
 e_note() {
   printf "\n${underline}${bold}${blue}Note:${reset} ${blue}%s${reset}\n" "$@"
 }
+

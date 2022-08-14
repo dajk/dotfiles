@@ -40,3 +40,4 @@
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
   }
 ]
+

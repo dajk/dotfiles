@@ -11,3 +11,4 @@ fi
 cp ./Shortcuts.json "$SPECTACLE_PATH"
 
 e_success "Spectacle settings copied"
+

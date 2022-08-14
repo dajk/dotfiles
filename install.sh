@@ -2,23 +2,33 @@
 
 source utils/utils.sh
 
+echo 'eval "$(/opt/homebrew/bin/brew shellenv)"' >> ~/.zprofile
+
 # Homebrew
 if test ! $(which brew); then
   e_header "Installing Homebrew"
-  /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+  
+  /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
 else
   e_header "Updating Homebrew"
   brew update
 fi
-e_success "Homebrew ready!"
+
+source ~/.zprofile
+
+if test ! $(which brew); then
+  echo "Unfortunately Homebrew is not set"
+  exit 1
+else
+  e_success "Homebrew ready!"
+fi
 
 # checks if apple ID was used as argument, if not ask for it
-if [ $# -eq 0 ]
-  then
-    e_ask "Enter your  ID: "
-    read APPLEID
+if [ $# -eq 0 ]; then
+  e_ask "Enter your  ID: "
+  read APPLEID
 else
-    APPLEID=$1
+  APPLEID=$1
 fi
 
 brew install mas
@@ -79,3 +89,4 @@ then
 else
   sudo reboot
 fi
+

@@ -49,3 +49,4 @@ alias zip="zip -r -X -9"
 
 # Chrome aliases
 alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
+

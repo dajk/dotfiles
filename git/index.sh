@@ -19,3 +19,4 @@ if [ -z "$email" ]; then
 else
   git config --global user.email "$email"
 fi
+

@@ -10,19 +10,13 @@ brew "bash-completion"
 brew "bash"
 brew "coreutils"
 brew "curl"
-brew "deno"
 brew "git-lfs"
-brew "golang"
-brew "kubectl"
 brew "mas" # Mac App Store Manager
-brew "minikube"
 brew "nvm" # Node Version Manager
 brew "postgresql"
 brew "tree"
 brew "yarn"
 brew "bat"
-brew "planetscale/tap/pscale"
-brew "mysql-client"
 
 # Browsers
 cask "firefox"
@@ -40,12 +34,9 @@ cask "caffeine"
 cask "docker"
 cask "iterm2"
 cask "warp"
-# cask "recordit"
-# cask "robo-3t"
 cask "spectacle"
 cask "font-fira-code"
 cask "responsively"
-cask "grammarly"
 
 # Quicklook extensions (MacOS preview)
 cask "qlimagesize"
@@ -55,7 +46,12 @@ cask "quicklook-csv"
 cask "quicklook-json"
 cask "webpquicklook"
 
+# Music
+cask "yt-music"
+
 # Communication
 cask "slack"
 cask "whatsapp"
-cask "zoomus"
+cask "zoom"
+
+
