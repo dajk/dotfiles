@@ -3,6 +3,7 @@ tap "homebrew/bundle"
 tap "homebrew/cask"
 tap "homebrew/core"
 tap "homebrew/cask-fonts"
+tap "schappim/ocr"
 
 # Binaries
 brew "awscli"
@@ -17,6 +18,8 @@ brew "postgresql"
 brew "tree"
 brew "yarn"
 brew "bat"
+brew "schappim/ocr/ocr"
+brew "starship"
 
 # Browsers
 cask "firefox"
@@ -36,6 +39,7 @@ cask "iterm2"
 cask "warp"
 cask "spectacle"
 cask "font-fira-code"
+cask "font-hack-nerd-font"
 cask "responsively"
 
 # Quicklook extensions (MacOS preview)
@@ -53,5 +57,4 @@ cask "yt-music"
 cask "slack"
 cask "whatsapp"
 cask "zoom"
-
 

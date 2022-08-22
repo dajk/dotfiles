@@ -4,7 +4,7 @@
     "shortcut_name": "RedoLastMove"
   },
   {
-    "shortcut_key_binding": null,
+    "shortcut_key_binding": "ctrl+shift+-",
     "shortcut_name": "MakeSmaller"
   },
   {
@@ -16,15 +16,15 @@
     "shortcut_name": "MoveToUpperRight"
   },
   {
-    "shortcut_key_binding": null,
+    "shortcut_key_binding": "ctrl+shift+down",
     "shortcut_name": "MoveToBottomHalf"
   },
   {
-    "shortcut_key_binding": null,
+    "shortcut_key_binding": "ctrl+alt+shift+right",
     "shortcut_name": "MoveToNextDisplay"
   },
   {
-    "shortcut_key_binding": null,
+    "shortcut_key_binding": "ctrl+shift+up",
     "shortcut_name": "MoveToTopHalf"
   },
   {
@@ -32,19 +32,19 @@
     "shortcut_name": "MoveToLowerLeft"
   },
   {
-    "shortcut_key_binding": null,
+    "shortcut_key_binding": "ctrl+shift+=",
     "shortcut_name": "MakeLarger"
   },
   {
-    "shortcut_key_binding": "ctrl+shift+down",
+    "shortcut_key_binding": "ctrl+shift+delete",
     "shortcut_name": "UndoLastMove"
   },
   {
-    "shortcut_key_binding": null,
+    "shortcut_key_binding": "ctrl+alt+shift+left",
     "shortcut_name": "MoveToPreviousDisplay"
   },
   {
-    "shortcut_key_binding": "ctrl+shift+up",
+    "shortcut_key_binding": "ctrl+shift+return",
     "shortcut_name": "MoveToFullscreen"
   },
   {
@@ -56,7 +56,7 @@
     "shortcut_name": "MoveToLeftHalf"
   },
   {
-    "shortcut_key_binding": null,
+    "shortcut_key_binding": "ctrl+shift+c",
     "shortcut_name": "MoveToCenter"
   },
   {

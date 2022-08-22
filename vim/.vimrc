@@ -4,7 +4,7 @@
 call plug#begin('~/.vim/plugged')
 " Make sure you use single quotes
 " Dracula theme
-Plug 'dracula/vim', { 'as': 'dracula' }
+Plug 'dracula/vim', { 'name': 'dracula' }
 call plug#end()
 
 " highlight file
