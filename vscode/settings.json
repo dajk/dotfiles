@@ -10,7 +10,6 @@
     "suppressShowKeyBindingsNotice": true
   },
   "gitlens.hovers.currentLine.over": "line",
-  "gitlens.currentLine.enabled": false,
   "breadcrumbs.enabled": true,
   "editor.formatOnSave": true,
   "editor.rulers": [100],
