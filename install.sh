@@ -79,8 +79,6 @@ e_success "Spectacle setup done!"
 e_success "Launching software update..."
 softwareupdate -ia
 
-npm i -g spaceship-prompt
-
 read -p "Do you want to reboot your mac? [y|N] " -n 1 -r
 echo
 if [[ ! $REPLY =~ ^[Yy]$ ]]
