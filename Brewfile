@@ -41,6 +41,7 @@ cask "spectacle"
 cask "font-fira-code"
 cask "font-hack-nerd-font"
 cask "responsively"
+cask "insomnia"
 
 # Quicklook extensions (MacOS preview)
 cask "qlimagesize"
