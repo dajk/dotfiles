@@ -30,7 +30,8 @@ then
   code --install-extension techer.open-in-browser
   code --install-extension esbenp.prettier-vscode
   code --install-extension humao.rest-client
-  # code --install-extension jasonnutter.search-node-modules
+  # code --install-extension jasonnutter.search-node-modules # memory problem
+  code --install-extension bungcip.better-toml
   code --install-extension cssho.vscode-svgviewer
   code --install-extension styled-components.vscode-styled-components
   code --install-extension redhat.vscode-yaml
