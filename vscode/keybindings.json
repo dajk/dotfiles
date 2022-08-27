@@ -9,6 +9,10 @@
     "command": "explorer.newFile"
   },
   {
+    "key": "cmd+shift+n",
+    "command": "explorer.newFolder"
+  },
+  {
     "key": "ctrl+]",
     "command": "spaceBlockJumper.moveDown"
   },
@@ -38,6 +42,11 @@
     "key": "alt+escape",
     "command": "-editor.action.triggerSuggest",
     "when": "editorHasCompletionItemProvider && textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+a",
+    "command": "editor.emmet.action.wrapWithAbbreviation",
+    "when": "textInputFocus && !editorReadonly"
   }
 ]
 
