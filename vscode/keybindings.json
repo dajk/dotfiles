@@ -47,6 +47,11 @@
     "key": "ctrl+a",
     "command": "editor.emmet.action.wrapWithAbbreviation",
     "when": "textInputFocus && !editorReadonly"
+  },
+  {
+    "key": "ctrl+f",
+    "command": "editor.action.quickFix",
+    "when": "textInputFocus && !editorReadonly"
   }
 ]
 
