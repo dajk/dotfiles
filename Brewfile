@@ -25,8 +25,9 @@ brew "starship"
 cask "firefox"
 cask "google-chrome"
 
-# Editor
+# Editors
 cask "visual-studio-code"
+cask "obsidian"
 
 # Design
 cask "figma"
@@ -42,6 +43,7 @@ cask "font-fira-code"
 cask "font-hack-nerd-font"
 cask "responsively"
 cask "insomnia"
+cask "pdfsam-basic"
 
 # Quicklook extensions (MacOS preview)
 cask "qlimagesize"
