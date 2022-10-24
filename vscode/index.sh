@@ -22,7 +22,6 @@ then
   code --install-extension github.copilot
   code --install-extension dracula-theme.theme-dracula
   code --install-extension editorconfig.editorconfig
-  code --install-extension msjsdiag.debugger-for-chrome
   code --install-extension ms-azuretools.vscode-docker
   code --install-extension dbaeumer.vscode-eslint
   code --install-extension eamodio.gitlens
@@ -50,3 +49,4 @@ else
   e_warning "Skip vscode extension installation..."
   exit 1
 fi
+
