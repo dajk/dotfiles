@@ -18,8 +18,11 @@ brew "postgresql"
 brew "tree"
 brew "yarn"
 brew "bat"
+brew "fd"
 brew "schappim/ocr/ocr"
 brew "starship"
+brew "git-delta"
+brew "bottom"
 
 # Browsers
 cask "firefox"
