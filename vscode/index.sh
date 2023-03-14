@@ -23,6 +23,8 @@ then
   code --install-extension dracula-theme.theme-dracula
   code --install-extension editorconfig.editorconfig
   code --install-extension ms-azuretools.vscode-docker
+  code --install-extension ms-playwright.playwright
+  code --install-extension ms-vscode-remote.remote-containers
   code --install-extension dbaeumer.vscode-eslint
   code --install-extension eamodio.gitlens
   code --install-extension prisma.vscode-graphql
@@ -34,6 +36,7 @@ then
   code --install-extension cssho.vscode-svgviewer
   code --install-extension styled-components.vscode-styled-components
   code --install-extension redhat.vscode-yaml
+  code --install-extension redhat.vscode-xml
   code --install-extension eg2.vscode-npm-script
   code --install-extension bradlc.vscode-tailwindcss
   code --install-extension jmfirth.vsc-space-block-jumper
@@ -43,6 +46,19 @@ then
   code --install-extension quicktype.quicktype
   code --install-extension pflannery.vscode-versionlens
   code --install-extension arcanis.vscode-zipfs
+  code --install-extension formulahendry.auto-rename-tag
+  code --install-extension bierner.markdown-checkbox
+  code --install-extension donjayamanne.githistory
+  code --install-extension EditorConfig.EditorConfig
+  code --install-extension GrapeCity.gc-excelviewer
+  code --install-extension GraphQL.vscode-graphql
+  code --install-extension GraphQL.vscode-graphql-execution
+  code --install-extension GraphQL.vscode-graphql-syntax
+  code --install-extension Prisma.prisma
+  code --install-extension quicktype.quicktype
+  code --install-extension rust-lang.rust-analyzer
+  code --install-extension serayuzgur.crates
+  code --install-extension usernamehw.errorlens
 
   e_success "Extensions for vscode have been installed."
 else
