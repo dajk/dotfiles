@@ -32,20 +32,22 @@ cask "google-chrome"
 cask "visual-studio-code"
 cask "obsidian"
 
+# Tools
+cask "iterm2"
+cask "warp"
+cask "postman"
+cask "docker"
+
 # Design
 cask "figma"
 
 # Utilities
 cask "appcleaner"
 cask "caffeine"
-cask "docker"
-cask "iterm2"
-cask "warp"
 cask "spectacle"
 cask "font-fira-code"
 cask "font-hack-nerd-font"
 cask "responsively"
-cask "insomnia"
 cask "pdfsam-basic"
 
 # Quicklook extensions (MacOS preview)

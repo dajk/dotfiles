@@ -97,5 +97,6 @@ vi
 - [YouTube Music](https://music.youtube.com/)
 - [Slack](https://slack.com/intl/en-de/)
 - [WhatsApp](https://web.whatsapp.com/)
+- [Postman](https://www.postman.com/)
 - Dark theme OS X and defaults override
 
