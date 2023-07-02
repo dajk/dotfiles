@@ -35,14 +35,17 @@ then
   code --install-extension EditorConfig.EditorConfig
   code --install-extension esbenp.prettier-vscode
   code --install-extension formulahendry.auto-rename-tag
-  code --install-extension github.copilot
+  code --install-extension github.copilot-chat
   code --install-extension github.copilot-labs
+  code --install-extension github.copilot-nightly
   code --install-extension GitLab.gitlab-workflow
   code --install-extension GraphQL.vscode-graphql
   code --install-extension GraphQL.vscode-graphql-execution
   code --install-extension GraphQL.vscode-graphql-syntax
   code --install-extension humao.rest-client
+  code --install-extension iulian-radu-at.find-unused-exports
   code --install-extension jmfirth.vsc-space-block-jumper
+  code --install-extension meganrogge.template-string-converter
   code --install-extension ms-azuretools.vscode-docker
   code --install-extension ms-playwright.playwright
   code --install-extension ms-vscode-remote.remote-containers
@@ -57,9 +60,10 @@ then
   code --install-extension streetsidesoftware.cspell-checker
   code --install-extension styled-components.vscode-styled-components
   code --install-extension techer.open-in-browser
+  code --install-extension unifiedjs.vscode-mdx
   code --install-extension usernamehw.errorlens
-  code --install-extension vadimcn.vscode-lldb
   code --install-extension WallabyJs.console-ninja
+  code --install-extension yoavbls.pretty-ts-errors
 
   e_success "Extensions for vscode have been installed."
 else
