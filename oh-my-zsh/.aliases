@@ -55,6 +55,5 @@ alias chrome="/Applications/Google\ Chrome.app/Contents/MacOS/Google\ Chrome"
 alias imagetext="ocr"
 
 # Remove all (e.g node_modules) recursively
-alias rmall="find . -name '$1' -type d -prune -exec rm -rf '{}' +"
-alias node_modules_cleanup="rmall node_modules"
+alias node_modules_cleanup="npm npkill"
 
