@@ -68,4 +68,3 @@ export PATH="$BUN_INSTALL/bin:$PATH"
 
 # alias for the github-copilot-cli (??, git?, gh?)
 eval "$(github-copilot-cli alias -- "$0")"
-
