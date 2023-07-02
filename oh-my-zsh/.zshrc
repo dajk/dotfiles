@@ -59,7 +59,13 @@ else
   echo "Running node $NVM_VERSION"
 fi
 
-# Set Spaceship ZSH as a prompt
-autoload -U promptinit; promptinit
-prompt spaceship
+# bun completions
+[ -s "/Users/dajk/.bun/_bun" ] && source "/Users/dajk/.bun/_bun"
+
+# bun
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
+
+# alias for the github-copilot-cli (??, git?, gh?)
+eval "$(github-copilot-cli alias -- "$0")"
 
