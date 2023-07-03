@@ -37,7 +37,7 @@ then
   code --install-extension formulahendry.auto-rename-tag
   code --install-extension github.copilot-chat
   code --install-extension github.copilot-labs
-  code --install-extension github.copilot-nightly
+  code --install-extension github.copilot
   code --install-extension GitLab.gitlab-workflow
   code --install-extension GraphQL.vscode-graphql
   code --install-extension GraphQL.vscode-graphql-execution
