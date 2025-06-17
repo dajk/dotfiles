@@ -23,8 +23,8 @@ then
   code --install-extension aaron-bond.better-comments
   code --install-extension adpyke.codesnap
   code --install-extension arcanis.vscode-zipfs
-  code --install-extension bierner.markdown-checkbox
   code --install-extension biarner.markdown-mermaid
+  code --install-extension bierner.markdown-checkbox
   code --install-extension bradlc.vscode-tailwindcss
   code --install-extension bungcip.better-toml
   code --install-extension cssho.vscode-svgviewer
@@ -35,9 +35,10 @@ then
   code --install-extension EditorConfig.EditorConfig
   code --install-extension esbenp.prettier-vscode
   code --install-extension formulahendry.auto-rename-tag
+  code --install-extension github.copilot
   code --install-extension github.copilot-chat
   code --install-extension github.copilot-labs
-  code --install-extension github.copilot
+  code --install-extension github.vscode-github-actions
   code --install-extension GitLab.gitlab-workflow
   code --install-extension GraphQL.vscode-graphql
   code --install-extension GraphQL.vscode-graphql-execution
