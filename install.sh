@@ -71,10 +71,6 @@ e_header "Setting vscode"
 (cd vscode; source index.sh)
 e_success "vscode setup done!"
 
-e_header "Setting spectacle"
-(cd spectacle; source index.sh)
-e_success "Spectacle setup done!"
-
 # Sotftware update
 e_success "Launching software update..."
 softwareupdate -ia
@@ -87,4 +83,3 @@ then
 else
   sudo reboot
 fi
-

@@ -29,13 +29,6 @@ alias cd="cl" # cd & ls
 bindkey "^[^[[C" forward-word
 bindkey "^[^[[D" backward-word
 
-# function up() {
-#   BUFFER="cd .."
-#   zle accept-line
-# }
-# zle -N up
-# bindkey "^k" up # cd ..
-
 # IP Address
 alias ip="ifconfig -a | grep -o 'inet6\? \(addr:\)\?\s\?\(\(\([0-9]\+\.\)\{3\}[0-9]\+\)\|[a-fA-F0-9:]\+\)' | awk '{ sub(/inet6? (addr:)? ?/, \"\"); print }'"
 
@@ -56,4 +49,3 @@ alias imagetext="ocr"
 
 # Remove all (e.g node_modules) recursively
 alias node_modules_cleanup="npm npkill"
-

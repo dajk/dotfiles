@@ -5,12 +5,27 @@ export ZSH="$HOME/.oh-my-zsh"
 ZSH_CUSTOM_PATH=${ZSH_CUSTOM:-~/.oh-my-zsh/custom}
 
 if [ ! -d ${ZSH_CUSTOM_PATH}/plugins/zsh-autosuggestions ]; then
-  git clone https://github.com/zsh-users/zsh-autosuggestions ${ZSH_CUSTOM_PATH}/plugins/zsh-autosuggestions
+  git clone https://github.com/zsh-users/zsh-autosuggestions.git ${ZSH_CUSTOM_PATH}/plugins/zsh-autosuggestions
+fi
+
+if [ ! -d ${ZSH_CUSTOM_PATH}/plugins/zsh-syntax-highlighting ]; then
+  git clone https://github.com/zsh-users/zsh-syntax-highlighting.git ${ZSH_CUSTOM_PATH}/plugins/zsh-syntax-highlighting
+fi
+
+if [ ! -d ${ZSH_CUSTOM_PATH}/plugins/fast-syntax-highlighting ]; then
+  git clone https://github.com/zdharma-continuum/fast-syntax-highlighting.git ${ZSH_CUSTOM_PATH}/plugins/fast-syntax-highlighting
+fi
+
+if [ ! -d ${ZSH_CUSTOM_PATH}/plugins/zsh-autocomplete ]; then
+  git clone --depth 1 -- https://github.com/marlonrichert/zsh-autocomplete.git ${ZSH_CUSTOM_PATH}/plugins/zsh-autocomplete
 fi
 
 plugins=(
   git
   zsh-autosuggestions
+  zsh-autocomplete
+  zsh-syntax-highlighting
+  fast-syntax-highlighting
   npm
   macos
 )
@@ -32,9 +47,7 @@ source $HOME/.zprofile
 # Setting zsh aliases
 source $HOME/.aliases
 
-# Set Spaceship ZSH as a prompt
-# autoload -U promptinit; promptinit
-# prompt spaceship
+eval "$(starship init zsh)"
 
 # NVM
 export NVM_DIR="$HOME/.nvm"

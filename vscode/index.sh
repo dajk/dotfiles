@@ -70,4 +70,3 @@ else
   e_warning "Skip vscode extension installation..."
   exit 1
 fi
-

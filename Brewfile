@@ -17,6 +17,7 @@ brew "nvm" # Node Version Manager
 brew "postgresql"
 brew "tree"
 brew "yarn"
+brew "pnpm"
 brew "bat"
 brew "fd"
 brew "schappim/ocr/ocr"
@@ -30,11 +31,11 @@ cask "google-chrome"
 
 # Editors
 cask "visual-studio-code"
+cask "cursor"
 cask "obsidian"
 
 # Tools
-cask "iterm2"
-cask "warp"
+cask "ghostty"
 cask "postman"
 cask "docker"
 
@@ -44,7 +45,7 @@ cask "figma"
 # Utilities
 cask "appcleaner"
 cask "caffeine"
-cask "spectacle"
+cask "rectangle"
 cask "font-fira-code"
 cask "font-hack-nerd-font"
 cask "responsively"
@@ -65,4 +66,3 @@ cask "yt-music"
 cask "slack"
 cask "whatsapp"
 cask "zoom"
-

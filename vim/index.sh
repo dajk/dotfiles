@@ -6,4 +6,3 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 # To install vim themes
 cp ./.vimrc ~/.vimrc
-

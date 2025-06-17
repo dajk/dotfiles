@@ -21,15 +21,6 @@ git clone https://github.com/dajk/dotfiles.git ~/dotfiles && cd ~/dotfiles && ./
 rm -rf ~/dotfiles
 ```
 
-- ##### ACTIVATING THEME AND OTHER iTerm2 SETUP
-
-1. `iTerm2` > `Preferences` > `Profiles` > `Colors` Tab
-2. Open the `Color Presets...` drop-down in the bottom right corner
-3. Select `Import...` from the list
-4. Select the `Dracula-theme.itermcolors` file (browse from `/User/{YOUR_USER}/dotfiles/iterm2/Dracula-theme.itermcolors` or download theme from [here](https://raw.githubusercontent.com/dajk/dotfiles/master/iterm2/Dracula-theme.itermcolors) and select it in this step)
-5. Select the `Dracula-theme` from `Color Presets...`
-6. Go to the `Text` section and increase font size to `14`
-
 - ##### SETUP GESTURES
 
 1. Open spotlight search (⌘ + space)
@@ -62,10 +53,11 @@ postgres=# press \q to quit
 - ##### GENERATE SSH
 
 ```sh
+ssh-keygen -t ed25519 -C "your_email@example.com" # recommended or
 ssh-keygen -t rsa -b 4096 -C "your_email@example.com"
 
 # copy to clipboard
-pbcopy < ~/.ssh/id_rsa.pub
+pbcopy < ~/.ssh/id_ed25519.pub
 ```
 
 - ##### SETUP VIM
@@ -82,8 +74,7 @@ vi
 
 ## Features
 
-- [iTerm2](https://iterm2.com/)
-- [Warp](https://www.warp.dev/)
+- [Ghostty](https://ghostty.org/)
 - [Oh My Zsh](https://github.com/robbyrussell/oh-my-zsh)
 - [Homebrew](http://brew.sh/)
 - [Docker](https://www.docker.com/)
@@ -91,7 +82,7 @@ vi
 - [Node.JS](https://nodejs.org/en/) using [nvm](https://github.com/nvm-sh/nvm)
 - [VSCode Editor](https://github.com/dajk/dotfiles/tree/master/vscode) and [configuration](https://github.com/dajk/dotfiles/tree/master/vscode)
 - [Dracula theme](https://draculatheme.com/terminal/)
-- [Spectacle](https://www.spectacleapp.com) and basic shortcuts
+- [Rectangle](https://rectangleapp.com/) and basic shortcuts
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
 - [ResponsivelyApp](https://responsively.app/)
 - [YouTube Music](https://music.youtube.com/)
@@ -99,4 +90,3 @@ vi
 - [WhatsApp](https://web.whatsapp.com/)
 - [Postman](https://www.postman.com/)
 - Dark theme OS X and defaults override
-
