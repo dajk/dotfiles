@@ -9,35 +9,35 @@ tap "schappim/ocr"
 brew "awscli"
 brew "bash-completion"
 brew "bash"
+brew "bat"
+brew "bottom"
 brew "coreutils"
 brew "curl"
+brew "fd"
+brew "git-delta"
 brew "git-lfs"
 brew "mas" # Mac App Store Manager
 brew "nvm" # Node Version Manager
-brew "postgresql"
-brew "tree"
-brew "yarn"
 brew "pnpm"
-brew "bat"
-brew "fd"
+brew "postgresql"
 brew "schappim/ocr/ocr"
 brew "starship"
-brew "git-delta"
-brew "bottom"
+brew "tree"
+brew "yarn"
 
 # Browsers
 cask "firefox"
 cask "google-chrome"
 
 # Editors
-cask "visual-studio-code"
 cask "cursor"
 cask "obsidian"
+cask "visual-studio-code"
 
 # Tools
+cask "docker"
 cask "ghostty"
 cask "postman"
-cask "docker"
 
 # Design
 cask "figma"
@@ -45,11 +45,12 @@ cask "figma"
 # Utilities
 cask "appcleaner"
 cask "caffeine"
-cask "rectangle"
 cask "font-fira-code"
 cask "font-hack-nerd-font"
-cask "responsively"
+cask "gh"
 cask "pdfsam-basic"
+cask "rectangle"
+cask "responsively"
 
 # Quicklook extensions (MacOS preview)
 cask "qlimagesize"
