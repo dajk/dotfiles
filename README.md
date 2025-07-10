@@ -82,7 +82,7 @@ vi
 - [Node.JS](https://nodejs.org/en/) using [nvm](https://github.com/nvm-sh/nvm)
 - [VSCode Editor](https://github.com/dajk/dotfiles/tree/master/vscode) and [configuration](https://github.com/dajk/dotfiles/tree/master/vscode)
 - [Dracula theme](https://draculatheme.com/terminal/)
-- [Rectangle](https://rectangleapp.com/) and basic shortcuts
+- [Raycast](https://www.raycast.com/)
 - [AppCleaner](https://freemacsoft.net/appcleaner/)
 - [ResponsivelyApp](https://responsively.app/)
 - [YouTube Music](https://music.youtube.com/)

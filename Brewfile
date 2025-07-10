@@ -49,7 +49,7 @@ cask "font-fira-code"
 cask "font-hack-nerd-font"
 cask "gh"
 cask "pdfsam-basic"
-cask "rectangle"
+cask "raycast"
 cask "responsively"
 
 # Quicklook extensions (MacOS preview)
