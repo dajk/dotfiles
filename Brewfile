@@ -64,6 +64,7 @@ cask "webpquicklook"
 cask "yt-music"
 
 # Communication
+cask "telegram"
 cask "slack"
 cask "whatsapp"
 cask "zoom"
